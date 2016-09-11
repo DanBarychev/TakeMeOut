@@ -1,0 +1,6 @@
+framework module YelpAPISwift {
+  umbrella header "YelpAPISwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

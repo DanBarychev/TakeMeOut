@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		164916ABF604A4E510E1526F /* Pods_Take_Me_Out.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22096B55CC5D1F07D001933E /* Pods_Take_Me_Out.framework */; };
+		421021B546449D4F5BEDFFE6 /* Pods_Take_Me_OutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33168061F637212CCEC1DFD0 /* Pods_Take_Me_OutTests.framework */; };
+		D65693861D84E80D00DC28FC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65693851D84E80D00DC28FC /* SettingsViewController.swift */; };
+		D65693881D851C4D00DC28FC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65693871D851C4D00DC28FC /* Settings.swift */; };
 		D6BF570B1D83A57C009A24C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BF570A1D83A57C009A24C8 /* AppDelegate.swift */; };
-		D6BF570D1D83A57D009A24C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BF570C1D83A57D009A24C8 /* ViewController.swift */; };
+		D6BF570D1D83A57D009A24C8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BF570C1D83A57D009A24C8 /* HomeViewController.swift */; };
 		D6BF57101D83A57D009A24C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6BF570E1D83A57D009A24C8 /* Main.storyboard */; };
 		D6BF57121D83A57D009A24C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6BF57111D83A57D009A24C8 /* Assets.xcassets */; };
 		D6BF57151D83A57E009A24C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6BF57131D83A57E009A24C8 /* LaunchScreen.storyboard */; };
 		D6BF57201D83A57E009A24C8 /* Take_Me_OutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BF571F1D83A57E009A24C8 /* Take_Me_OutTests.swift */; };
+		D6C0BFE81D83D2D90080908A /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C0BFE71D83D2D90080908A /* PlaceViewController.swift */; };
+		D6C0BFEA1D83D4AD0080908A /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C0BFE91D83D4AD0080908A /* Place.swift */; };
+		D6EB7CC71D84056E0010EC35 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EB7CC61D84056E0010EC35 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +33,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22096B55CC5D1F07D001933E /* Pods_Take_Me_Out.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Take_Me_Out.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33168061F637212CCEC1DFD0 /* Pods_Take_Me_OutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Take_Me_OutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC6AB39CB7EBA4C8734FDEE /* Pods-Take Me Out.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Take Me Out.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Take Me Out/Pods-Take Me Out.debug.xcconfig"; sourceTree = "<group>"; };
+		69EA37DE65E87C4576D80F53 /* Pods-Take Me OutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Take Me OutTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Take Me OutTests/Pods-Take Me OutTests.debug.xcconfig"; sourceTree = "<group>"; };
+		78B51A0FEBE1054961940530 /* Pods-Take Me OutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Take Me OutTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Take Me OutTests/Pods-Take Me OutTests.release.xcconfig"; sourceTree = "<group>"; };
+		C98B0C01FD588F38D8615062 /* Pods-Take Me Out.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Take Me Out.release.xcconfig"; path = "Pods/Target Support Files/Pods-Take Me Out/Pods-Take Me Out.release.xcconfig"; sourceTree = "<group>"; };
+		D65693851D84E80D00DC28FC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D65693871D851C4D00DC28FC /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		D6BF57071D83A57B009A24C8 /* Take Me Out.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Take Me Out.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6BF570A1D83A57C009A24C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D6BF570C1D83A57D009A24C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6BF570C1D83A57D009A24C8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D6BF570F1D83A57D009A24C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6BF57111D83A57D009A24C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6BF57141D83A57E009A24C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +51,9 @@
 		D6BF571B1D83A57E009A24C8 /* Take Me OutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Take Me OutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6BF571F1D83A57E009A24C8 /* Take_Me_OutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Take_Me_OutTests.swift; sourceTree = "<group>"; };
 		D6BF57211D83A57E009A24C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C0BFE71D83D2D90080908A /* PlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
+		D6C0BFE91D83D4AD0080908A /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		D6EB7CC61D84056E0010EC35 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				164916ABF604A4E510E1526F /* Pods_Take_Me_Out.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +69,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				421021B546449D4F5BEDFFE6 /* Pods_Take_Me_OutTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		805DF3CB1DC1D7F0709E1EB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BC6AB39CB7EBA4C8734FDEE /* Pods-Take Me Out.debug.xcconfig */,
+				C98B0C01FD588F38D8615062 /* Pods-Take Me Out.release.xcconfig */,
+				69EA37DE65E87C4576D80F53 /* Pods-Take Me OutTests.debug.xcconfig */,
+				78B51A0FEBE1054961940530 /* Pods-Take Me OutTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9136D4B386E9F600B6085D8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22096B55CC5D1F07D001933E /* Pods_Take_Me_Out.framework */,
+				33168061F637212CCEC1DFD0 /* Pods_Take_Me_OutTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D6BF56FE1D83A57B009A24C8 = {
 			isa = PBXGroup;
 			children = (
 				D6BF57091D83A57C009A24C8 /* Take Me Out */,
 				D6BF571E1D83A57E009A24C8 /* Take Me OutTests */,
 				D6BF57081D83A57B009A24C8 /* Products */,
+				805DF3CB1DC1D7F0709E1EB0 /* Pods */,
+				9136D4B386E9F600B6085D8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +120,16 @@
 			isa = PBXGroup;
 			children = (
 				D6BF570A1D83A57C009A24C8 /* AppDelegate.swift */,
-				D6BF570C1D83A57D009A24C8 /* ViewController.swift */,
+				D6C0BFE91D83D4AD0080908A /* Place.swift */,
+				D6BF570C1D83A57D009A24C8 /* HomeViewController.swift */,
+				D65693871D851C4D00DC28FC /* Settings.swift */,
+				D6C0BFE71D83D2D90080908A /* PlaceViewController.swift */,
+				D65693851D84E80D00DC28FC /* SettingsViewController.swift */,
 				D6BF570E1D83A57D009A24C8 /* Main.storyboard */,
-				D6BF57111D83A57D009A24C8 /* Assets.xcassets */,
 				D6BF57131D83A57E009A24C8 /* LaunchScreen.storyboard */,
+				D6BF57111D83A57D009A24C8 /* Assets.xcassets */,
 				D6BF57161D83A57E009A24C8 /* Info.plist */,
+				D6EB7CC51D84054B0010EC35 /* Helpers */,
 			);
 			path = "Take Me Out";
 			sourceTree = "<group>";
@@ -96,6 +143,14 @@
 			path = "Take Me OutTests";
 			sourceTree = "<group>";
 		};
+		D6EB7CC51D84054B0010EC35 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D6EB7CC61D84056E0010EC35 /* Extensions.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6BF57241D83A57E009A24C8 /* Build configuration list for PBXNativeTarget "Take Me Out" */;
 			buildPhases = (
+				CC7B8AB65A83589FD2959C1D /* [CP] Check Pods Manifest.lock */,
 				D6BF57031D83A57B009A24C8 /* Sources */,
 				D6BF57041D83A57B009A24C8 /* Frameworks */,
 				D6BF57051D83A57B009A24C8 /* Resources */,
+				2C6DC7BBDDBF332EF8A7E84B /* [CP] Embed Pods Frameworks */,
+				3308974EEF840030B6B4D6A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6BF57271D83A57E009A24C8 /* Build configuration list for PBXNativeTarget "Take Me OutTests" */;
 			buildPhases = (
+				3C20871F63AD7A656EF99182 /* [CP] Check Pods Manifest.lock */,
 				D6BF57171D83A57E009A24C8 /* Sources */,
 				D6BF57181D83A57E009A24C8 /* Frameworks */,
 				D6BF57191D83A57E009A24C8 /* Resources */,
+				607C0D8BD7F6BB0B798C9737 /* [CP] Embed Pods Frameworks */,
+				2D302A4921AADEE9C8C5E6DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,13 +252,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C6DC7BBDDBF332EF8A7E84B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Take Me Out/Pods-Take Me Out-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D302A4921AADEE9C8C5E6DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Take Me OutTests/Pods-Take Me OutTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3308974EEF840030B6B4D6A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Take Me Out/Pods-Take Me Out-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C20871F63AD7A656EF99182 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		607C0D8BD7F6BB0B798C9737 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Take Me OutTests/Pods-Take Me OutTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC7B8AB65A83589FD2959C1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D6BF57031D83A57B009A24C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6BF570D1D83A57D009A24C8 /* ViewController.swift in Sources */,
+				D6EB7CC71D84056E0010EC35 /* Extensions.swift in Sources */,
+				D6C0BFE81D83D2D90080908A /* PlaceViewController.swift in Sources */,
+				D6BF570D1D83A57D009A24C8 /* HomeViewController.swift in Sources */,
 				D6BF570B1D83A57C009A24C8 /* AppDelegate.swift in Sources */,
+				D65693881D851C4D00DC28FC /* Settings.swift in Sources */,
+				D6C0BFEA1D83D4AD0080908A /* Place.swift in Sources */,
+				D65693861D84E80D00DC28FC /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +485,7 @@
 		};
 		D6BF57251D83A57E009A24C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC6AB39CB7EBA4C8734FDEE /* Pods-Take Me Out.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Take Me Out/Info.plist";
@@ -337,6 +497,7 @@
 		};
 		D6BF57261D83A57E009A24C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C98B0C01FD588F38D8615062 /* Pods-Take Me Out.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Take Me Out/Info.plist";
@@ -348,6 +509,7 @@
 		};
 		D6BF57281D83A57E009A24C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69EA37DE65E87C4576D80F53 /* Pods-Take Me OutTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Take Me OutTests/Info.plist";
@@ -360,6 +522,7 @@
 		};
 		D6BF57291D83A57E009A24C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B51A0FEBE1054961940530 /* Pods-Take Me OutTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Take Me OutTests/Info.plist";
@@ -389,6 +552,7 @@
 				D6BF57261D83A57E009A24C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6BF57271D83A57E009A24C8 /* Build configuration list for PBXNativeTarget "Take Me OutTests" */ = {
 			isa = XCConfigurationList;
@@ -397,6 +561,7 @@
 				D6BF57291D83A57E009A24C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

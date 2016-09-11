@@ -1,0 +1,6 @@
+framework module Pods_Take_Me_OutTests {
+  umbrella header "Pods-Take Me OutTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
